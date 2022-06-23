@@ -1,0 +1,47 @@
+.gallery-item {
+  width: 32%;
+  height: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  position: relative;
+}
+
+.checked {
+  border: 2px solid green;
+}
+
+.img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+
+.item__button-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  z-index: 5;
+  bottom: 20px;
+  left: 20px;
+}
+
+.item__button {
+  width: 80px;
+  border-radius: 60px;
+  background-color: white;
+  border: 0;
+  color: #391400;
+}
+
+.item__name {
+  font-size: 40px;
+  color: white;
+}
+@media (max-width: 1040px) {
+  .gallery-item {
+    width: 90%;
+  }
+}

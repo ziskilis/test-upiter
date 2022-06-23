@@ -1,0 +1,18 @@
+.site-info {
+  background-color: #28293e;
+  color: white;
+}
+
+.site-info__name {
+  margin-top: 95px;
+  text-align: center;
+  font-size: 72px;
+}
+
+.site-info__subtext {
+  max-width: 570px;
+  margin: 30px auto 0;
+  text-align: center;
+  color: gray;
+  padding-bottom: 60px;
+}
